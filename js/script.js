@@ -1,6 +1,7 @@
 console.log("Hello World")
 const bookForm = document.querySelector('#bookForm');
 const bookInput = document.querySelector("#bookInput");
+const bookList = document.querySelector("#bookList");
 
 let myLibrary = [];
 
@@ -23,7 +24,10 @@ bookForm.addEventListener('submit',(e) => {
 // loop through array of books 
 function loopThroughLibrary() {
     for (i in myLibrary) {
-        console.log(myLibrary[i].title);
+        title = myLibrary[i].title;
+        const p = document.createElement("p");
+        p.textContent = title;
+        bookList.appendChild(p);
     }
 }
 // display them on the page (add element for each book)
