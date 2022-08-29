@@ -23,6 +23,9 @@ bookForm.addEventListener('submit',(e) => {
 
 // loop through array of books 
 function loopThroughLibrary() {
+    while (bookList.firstChild) {
+        bookList.removeChild(bookList.lastChild);
+      } //remove old items so we can add them all again with the new one.
     for (i in myLibrary) {
         title = myLibrary[i].title;
         const p = document.createElement("p");
