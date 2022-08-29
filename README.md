@@ -13,7 +13,7 @@ make use of constructors, this keyword. use skills learned in gif thingy.
 
 ## Optimizations
 
-I think I'll have a better idea of what optimizations I'd like to make after I complete this project.
+fix autocomplete blocking button
 
 ## Lessons Learned:
 
