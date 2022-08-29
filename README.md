@@ -9,6 +9,8 @@ This is the "Library" project from TheOdinProject's JavaScript course. Still wor
 
 **Tech used:** HTML, CSS, JavaScript
 
+(project in progress, pardon the dust.)
+
 make use of constructors, this keyword. use skills learned in gif thingy.
 
 ## Optimizations
