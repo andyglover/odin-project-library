@@ -1,7 +1,7 @@
 # odin-project-library
 This is the "Library" project from TheOdinProject's JavaScript course. Still working on this one!
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://www.andyglover.io/odin-project-library/
 
 ![Thumbnail](./img/project-screenshot.png "screenshot of odin-project-library")
 
