@@ -9,7 +9,7 @@ This is the "Library" project from TheOdinProject's JavaScript course. Still wor
 
 **Tech used:** HTML, CSS, JavaScript
 
-This project is gonna test my Javascript skills, I'm sure of it!
+make use of constructors, this keyword. use skills learned in gif thingy.
 
 ## Optimizations
 
@@ -17,7 +17,7 @@ I think I'll have a better idea of what optimizations I'd like to make after I c
 
 ## Lessons Learned:
 
-I think I'll have a better idea of what lessons I've learned after I complete this project.
+when looping through the array using dot notation to grab each book title
 
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
