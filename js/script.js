@@ -41,7 +41,7 @@ function loopThroughLibrary() {
         pages = myLibrary[i].pages;
         read = myLibrary[i].read;
         const p = document.createElement("p");
-        p.textContent = `${title} + ${author} + ${pages} + ${read}`;
+        p.innerText = `Title: ${title}\nAuthor: ${author}\n${pages} Pages\n${read}`;
         bookList.appendChild(p);
     }
 }
