@@ -40,16 +40,19 @@ function loopThroughLibrary() {
         author = myLibrary[i].author;
         pages = myLibrary[i].pages;
         read = myLibrary[i].read;
+        //create card
         const div = document.createElement('div');
         const p = document.createElement("p");
-        const button = document.createElement("button");
         p.innerText = `Title: ${title}\nAuthor: ${author}\n${pages} Pages\n${read}`;
+        //create delete button
+        const button = document.createElement("button");
         button.innerText="delete";
         button.setAttribute("data-index", i);
         button.addEventListener('click',(e) => {
             myLibrary.splice(button.getAttribute("data-index"), 1);
             loopThroughLibrary();
         });
+        //append elements
         div.appendChild(p);
         div.appendChild(button);
         bookList.appendChild(div);

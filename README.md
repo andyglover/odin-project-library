@@ -11,15 +11,18 @@ This is the "Library" project from TheOdinProject's JavaScript course. Still wor
 
 (project in progress, pardon the dust.)
 
-make use of constructors, this keyword. use skills learned in gif thingy.
+
 
 ## Optimizations
 
-fix autocomplete blocking button
+fix autocomplete blocking button issue
 
 ## Lessons Learned:
 
+make use of constructors, working with objects, this keyword. use skills learned in gif thingy.
 when looping through the array using dot notation to grab each book title
+adding elements to page
+using data-attribute to refer to each book card
 
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
