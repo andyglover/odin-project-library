@@ -1,6 +1,6 @@
 console.log("Hello World")
 const bookForm = document.querySelector('#bookForm');
-const bookInput = document.querySelector("#bookInput");
+const bookInputTitle = document.querySelector("#bookInputTitle");
 const bookList = document.querySelector("#bookList");
 
 let myLibrary = [];
@@ -16,7 +16,7 @@ function addBookToLibrary(userInput) {
 
 bookForm.addEventListener('submit',(e) => {
     e.preventDefault();
-    addBookToLibrary(bookInput.value);
+    addBookToLibrary(bookInputTitle.value);
     loopThroughLibrary(); // test loop
 });
 

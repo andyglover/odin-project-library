@@ -10,7 +10,27 @@
 <body>
     <h1>Hello World</h1>
     <form id="bookForm">
-        <input type="text" id="bookInput" autocomplete="off"><input type="submit" id="bookFormButton" value="Add book to library!">
+        <label for="bookInputTitle">Title: 
+            <input type="text" name="bookInputTitle" id="bookInputTitle" autocomplete="off">
+        </label>
+        <label for="bookInputAuthor">Author: 
+            <input type="text" name="bookInputAuthor" id="bookInputAuthor">
+        </label>
+        <label for="bookInputPages">Pages: 
+            <input type="number" name="bookInputPages" id="bookInputPages">
+        </label>
+        <label for="bookInputAuthor">Author: 
+            <input type="text" name="bookInputAuthor" id="bookInputAuthor">
+        </label>
+        <label for="toggle-read">
+            <input id="toggle-read" name="toggle" type="radio">
+            Read
+        </label>
+        <label for="toggle-unread">
+            <input id="toggle-unread" name="toggle" type="radio">
+            Unread
+        </label>
+        <input type="submit" id="bookFormButton" value="Add book to library!">
         </form>
         <div id="bookList"></div>
     <script src="js/script.js"></script>
