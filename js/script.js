@@ -36,6 +36,7 @@ function loopThroughLibrary() {
         read = myLibrary[i].read;
         //create card
         const div = document.createElement('div');
+        div.classList.add("bookCard")
         const p = document.createElement("p");
         p.innerText = `Title: ${title}\nAuthor: ${author}\n${pages} Pages\n${read}`;
         //create delete button
@@ -52,4 +53,11 @@ function loopThroughLibrary() {
         bookList.appendChild(div);
     }
 }
+
+// sample cards for styling
+// addBookToLibrary("test title","test author",100,"Read");
+// addBookToLibrary("test title","test author",100,"Read");
+// addBookToLibrary("test title","test author",100,"Read");
+// loopThroughLibrary();
+
 //TODO: toggle "read" status

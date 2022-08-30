@@ -1,5 +1,5 @@
 body {
-    color: red;
+    
 }
 form {
     width: 50%;
@@ -17,5 +17,15 @@ form li label{
 #radioButtons, #submitButton{
     display:block;
     margin-left:100px;
+}
+
+#bookList {
+    display:flex;
+}
+
+.bookCard {
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
 }
 
