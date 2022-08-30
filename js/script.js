@@ -45,16 +45,16 @@ function loopThroughLibrary() {
         const p = document.createElement("p");
         p.innerText = `Title: ${title}\nAuthor: ${author}\n${pages} Pages\n${read}`;
         //create delete button
-        const button = document.createElement("button");
-        button.innerText="delete";
-        button.setAttribute("data-index", i);
-        button.addEventListener('click',(e) => {
-            myLibrary.splice(button.getAttribute("data-index"), 1);
+        const deleteButton = document.createElement("button");
+        deleteButton.innerText="delete";
+        deleteButton.setAttribute("data-index", i);
+        deleteButton.addEventListener('click',(e) => {
+            myLibrary.splice(deleteButton.getAttribute("data-index"), 1);
             loopThroughLibrary();
         });
         //append elements
         div.appendChild(p);
-        div.appendChild(button);
+        div.appendChild(deleteButton);
         bookList.appendChild(div);
     }
 }
