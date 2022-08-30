@@ -3,8 +3,6 @@ const bookForm = document.querySelector('#bookForm');
 const bookInputTitle = document.querySelector("#bookInputTitle");
 const bookInputAuthor = document.querySelector("#bookInputAuthor");
 const bookInputPages = document.querySelector("#bookInputPages");
-//add radio buttons too?
-
 const bookList = document.querySelector("#bookList");
 
 let myLibrary = [];
@@ -18,7 +16,6 @@ function Book(title,author,pages,read) {
 
 function addBookToLibrary(title,author,pages,read) {
     myLibrary.push(new Book(title,author,pages,read)); // construct new book and push it to book array
-    console.log(myLibrary); //test library with a console log
 }
 
 bookForm.addEventListener('submit',(e) => {
@@ -29,8 +26,6 @@ bookForm.addEventListener('submit',(e) => {
     loopThroughLibrary();
 });
 
-
-// loop through array of books 
 function loopThroughLibrary() {
     while (bookList.firstChild) {
         bookList.removeChild(bookList.lastChild);
@@ -58,4 +53,4 @@ function loopThroughLibrary() {
         bookList.appendChild(div);
     }
 }
-// display them on the page (add element for each book)
+//TODO: toggle "read" status
