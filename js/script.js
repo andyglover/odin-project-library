@@ -26,8 +26,7 @@ bookForm.addEventListener('submit',(e) => {
     const bookInputRead = document.querySelector('[type=radio]:checked').value;
     addBookToLibrary(bookInputTitle.value, bookInputAuthor.value, bookInputPages.value, bookInputRead);
     bookForm.reset();
-    loopThroughLibrary(); // test loop
-    // console.log(bookInputRead);
+    loopThroughLibrary();
 });
 
 
@@ -43,8 +42,16 @@ function loopThroughLibrary() {
         read = myLibrary[i].read;
         const div = document.createElement('div');
         const p = document.createElement("p");
+        const button = document.createElement("button");
         p.innerText = `Title: ${title}\nAuthor: ${author}\n${pages} Pages\n${read}`;
+        button.innerText="delete";
+        button.setAttribute("data-index", i);
+        button.addEventListener('click',(e) => {
+            myLibrary.splice(button.getAttribute("data-index"), 1);
+            loopThroughLibrary();
+        });
         div.appendChild(p);
+        div.appendChild(button);
         bookList.appendChild(div);
     }
 }
