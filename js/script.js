@@ -25,6 +25,7 @@ bookForm.addEventListener('submit',(e) => {
     e.preventDefault();
     const bookInputRead = document.querySelector('[type=radio]:checked').value;
     addBookToLibrary(bookInputTitle.value, bookInputAuthor.value, bookInputPages.value, bookInputRead);
+    bookForm.reset();
     loopThroughLibrary(); // test loop
     // console.log(bookInputRead);
 });
