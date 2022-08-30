@@ -11,36 +11,32 @@
     <h1>Hello World</h1>
     <form id="bookForm">
         <li>
-            <label for="bookInputTitle">Title:
+            <label for="bookInputTitle">Title:</label>
                 <input type="text" name="bookInputTitle" id="bookInputTitle" autocomplete="off">
-            </label>
+            
         </li>
         <li>
-            <label for="bookInputAuthor">Author:
+            <label for="bookInputAuthor">Author:</label>
                 <input type="text" name="bookInputAuthor" id="bookInputAuthor">
-            </label>
+            
         </li>
         <li>
-            <label for="bookInputPages">Pages:
+            <label for="bookInputPages">Pages:</label>
                 <input type="number" name="bookInputPages" id="bookInputPages">
-            </label>
+            
         </li>
         <li>
-            <label for="bookInputAuthor">Author:
+            <label for="bookInputAuthor">Author:</label>
                 <input type="text" name="bookInputAuthor" id="bookInputAuthor">
-            </label>
+            
         </li>
-        <li>
-            <label for="toggle-read">
+        <li id="radioButtons">
                 <input id="toggle-read" name="toggle" type="radio">
-                Read
-            </label>
-            <label for="toggle-unread">
+                <label for="toggle-read">Read</label>
                 <input id="toggle-unread" name="toggle" type="radio">
-                Unread
-            </label>
+                <label for="toggle-unread">Unread</label>
         </li>
-        <li><input type="submit" id="bookFormButton" value="Add book to library!"></li>
+        <li id="submitButton"><input type="submit" id="bookFormButton" value="Add book to library!"></li>
         </form>
         <div id="bookList"></div>
     <script src="js/script.js"></script>

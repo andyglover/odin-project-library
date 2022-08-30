@@ -1,7 +1,21 @@
 body {
     color: red;
 }
+form {
+    width: 50%;
+}
 form li {
     list-style: none;
+    display:grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
     padding: 10px;
 }
+form li label{
+    text-align:right;
+}
+#radioButtons, #submitButton{
+    display:block;
+    margin-left:100px;
+}
+
