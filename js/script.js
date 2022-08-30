@@ -1,4 +1,3 @@
-console.log("Hello World")
 const bookForm = document.querySelector('#bookForm');
 const bookInputTitle = document.querySelector("#bookInputTitle");
 const bookInputAuthor = document.querySelector("#bookInputAuthor");
