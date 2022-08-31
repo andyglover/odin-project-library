@@ -11,6 +11,10 @@ function Book(title,author,pages,read) {
     this.author = author;
     this.pages = pages;
     this.read = read;
+    this.toggleRead = function() {
+        if(this.read == "Read"){this.read="Unread";}
+        else if(this.read == "Unread"){this.read="Read";}
+    };
 }
 
 function addBookToLibrary(title,author,pages,read) {
@@ -47,8 +51,16 @@ function loopThroughLibrary() {
             myLibrary.splice(deleteButton.getAttribute("data-index"), 1);
             loopThroughLibrary();
         });
+        //create toggle read button
+        const toggleReadButton = document.createElement("button");
+        toggleReadButton.innerText="toggle read/unread";
+        toggleReadButton.addEventListener('click',(e)=>{
+            myLibrary[i].toggleRead();
+            loopThroughLibrary();
+        });
         //append elements
         div.appendChild(p);
+        div.appendChild(toggleReadButton);
         div.appendChild(deleteButton);
         bookList.appendChild(div);
     }
@@ -59,5 +71,3 @@ function loopThroughLibrary() {
 // addBookToLibrary("test title","test author",100,"Read");
 // addBookToLibrary("test title","test author",100,"Read");
 // loopThroughLibrary();
-
-//TODO: toggle "read" status
