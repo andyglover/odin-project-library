@@ -11,7 +11,7 @@ form li {
 form {
     text-align: left;
     margin: 0 auto;
-    background-color: gray;
+    background-color: lightgray;
     width: 500px;
 }
 form li label{
@@ -29,7 +29,7 @@ form li label{
 }
 
 .bookCard {
-    background-color: gray;
+    background-color: lightskyblue;
     margin: 10px;
     padding: 10px;
 }
