@@ -69,8 +69,6 @@ function loopThroughLibrary() {
     }
 }
 
-
-
 exampleButton.addEventListener('click', (e)=>{
     let examples = []; 
     examples[0] = Array("Harry Potter and the Sorcerer's Stone","J.K. Rowling","309","Unread");
