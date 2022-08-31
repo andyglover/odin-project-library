@@ -22,6 +22,16 @@ form li label{
     margin-left:100px;
 }
 
+#submitButton input, #exampleButton button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#submitButton input:hover, #exampleButton button:hover{
+    background-color: lightskyblue;
+}
+
 #bookList {
     display:flex;
     justify-content: center;
