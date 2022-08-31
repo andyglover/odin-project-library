@@ -68,7 +68,6 @@ function loopThroughLibrary() {
     }
 }
 
-// sample cards for styling
 // addBookToLibrary("test title","test author",100,"Read");
 // addBookToLibrary("test title","test author",100,"Read");
 // addBookToLibrary("test title","test author",100,"Read");

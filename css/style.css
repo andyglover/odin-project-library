@@ -24,6 +24,7 @@ form li label{
 
 #bookList {
     display:flex;
+    justify-content: center;
 }
 
 .bookCard {
@@ -31,4 +32,3 @@ form li label{
     margin: 10px;
     padding: 10px;
 }
-
