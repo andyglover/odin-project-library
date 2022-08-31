@@ -17,7 +17,7 @@ This project lets you fill out a form with information about a book, then click 
 
 The Odin Project called for another button which would "pop up" the form when the user wanted to add a book, so I would like to add that in the future.
 
-Also a trash can icon, and confirmation dialogue for deleting a book would be a nice feature.
+A confirmation dialogue for deleting a book would be a nice feature.
 
 ## Lessons Learned:
 
