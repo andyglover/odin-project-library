@@ -1,5 +1,5 @@
 # odin-project-library
-This is the "Library" project from TheOdinProject's JavaScript course. Still working on this one!
+This is the "Library" project from TheOdinProject's JavaScript course. My wife loves books! So she liked the idea of this project a lot!
 
 **Link to project:** https://www.andyglover.io/odin-project-library/
 
@@ -11,18 +11,21 @@ This is the "Library" project from TheOdinProject's JavaScript course. Still wor
 
 (project in progress, pardon the dust.)
 
-
+This project lets you fill out a form with information about a book, then click a button to add that book to a card on the screen. Each book card has a button to delete the book, and to toggle whether the book is "Read" or "Unread".
 
 ## Optimizations
 
-fix autocomplete blocking button issue
+The Odin Project called for another button which would "pop up" the form when the user wanted to add a book, so I would like to add that in the future.
+
+Also a trash can icon, and confirmation dialogue for deleting a book would be a nice feature.
 
 ## Lessons Learned:
 
-make use of constructors, working with objects, this keyword. use skills learned in gif thingy.
-when looping through the array using dot notation to grab each book title
-adding elements to page
-using data-attribute to refer to each book card
+In building this project, I learned how to make use of constructors, and work with objects, adding methods to them, and using the "this" keyword.
+
+This was also some good practice with appending elements to the page, and adding buttons to those elements that do things!
+
+I also got to make use of the "data-" attribute in this one!
 
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
