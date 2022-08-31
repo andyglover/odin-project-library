@@ -1,9 +1,6 @@
 body {
     text-align: center;
 }
-form {
-    width: 50%;
-}
 form li {
     list-style: none;
     display:grid;
@@ -15,6 +12,7 @@ form {
     text-align: left;
     margin: 0 auto;
     background-color: gray;
+    width: 500px;
 }
 form li label{
     text-align:right;
