@@ -68,8 +68,8 @@ function loopThroughLibrary() {
         bookList.appendChild(div);
     }
 }
-exampleButton.addEventListener('click', (e)=>{
-addBookToLibrary("Example Book","Example Author",100,"Read");
-loopThroughLibrary();
-})
 
+exampleButton.addEventListener('click', (e)=>{
+    addBookToLibrary("Example Book","Example Author",100,"Read");
+    loopThroughLibrary();
+})
