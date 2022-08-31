@@ -25,6 +25,7 @@ form li label{
 #bookList {
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bookCard {
