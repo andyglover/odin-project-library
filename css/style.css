@@ -17,7 +17,7 @@ form {
 form li label{
     text-align:right;
 }
-#radioButtons, #submitButton{
+#radioButtons, #submitButton, #exampleButton {
     display:block;
     margin-left:100px;
 }

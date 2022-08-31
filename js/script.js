@@ -3,6 +3,7 @@ const bookInputTitle = document.querySelector("#bookInputTitle");
 const bookInputAuthor = document.querySelector("#bookInputAuthor");
 const bookInputPages = document.querySelector("#bookInputPages");
 const bookList = document.querySelector("#bookList");
+const exampleButton = document.querySelector("#example")
 
 let myLibrary = [];
 
@@ -67,8 +68,8 @@ function loopThroughLibrary() {
         bookList.appendChild(div);
     }
 }
+exampleButton.addEventListener('click', (e)=>{
+addBookToLibrary("Example Book","Example Author",100,"Read");
+loopThroughLibrary();
+})
 
-// addBookToLibrary("test title","test author",100,"Read");
-// addBookToLibrary("test title","test author",100,"Read");
-// addBookToLibrary("test title","test author",100,"Read");
-// loopThroughLibrary();
