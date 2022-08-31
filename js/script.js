@@ -38,6 +38,7 @@ function loopThroughLibrary() {
         author = myLibrary[i].author;
         pages = myLibrary[i].pages;
         read = myLibrary[i].read;
+
         //create card
         const div = document.createElement('div');
         div.classList.add("bookCard")
@@ -54,8 +55,9 @@ function loopThroughLibrary() {
         //create toggle read button
         const toggleReadButton = document.createElement("button");
         toggleReadButton.innerText="toggle read/unread";
+        toggleReadButton.setAttribute("data-index", i);
         toggleReadButton.addEventListener('click',(e)=>{
-            myLibrary[i].toggleRead();
+            myLibrary[toggleReadButton.getAttribute("data-index")].toggleRead();
             loopThroughLibrary();
         });
         //append elements
