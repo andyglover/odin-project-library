@@ -69,7 +69,21 @@ function loopThroughLibrary() {
     }
 }
 
+
+
 exampleButton.addEventListener('click', (e)=>{
-    addBookToLibrary("Example Book","Example Author",100,"Read");
+    let examples = []; 
+    examples[0] = Array("Harry Potter and the Sorcerer's Stone","J.K. Rowling","309","Unread");
+    examples[1] = Array("The Hunger Games","Suzanne Collins","374","Unread");
+    examples[2] = Array("Twilight","Stephenie Meyer","498","Unread");
+    examples[3] = Array("To Kill A Mockingbird","Harper Lee","336","Unread");
+    examples[4] = Array("The Great Gatsby","F. Scott Fitzgerald","180","Unread");
+    examples[5] = Array("The Fault in Our Stars","John Green","313","Unread");
+    examples[6] = Array("1984","George Orwell","328","Unread");
+    examples[7] = Array("Pride and Prejudice","Jane Austen","279","Unread");
+    examples[8] = Array("The Hobbit","J.R.R. Tolkien","366","Unread");
+    examples[9] = Array("The Diary of a Young Girl","Anne Frank","283","Unread");
+    let randomExample = Math.floor(Math.random() * examples.length);
+    addBookToLibrary(examples[randomExample][0],examples[randomExample][1],examples[randomExample][2],examples[randomExample][3]);
     loopThroughLibrary();
 })
