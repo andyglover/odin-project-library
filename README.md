@@ -9,8 +9,6 @@ This is the "Library" project from TheOdinProject's JavaScript course. My wife l
 
 **Tech used:** HTML, CSS, JavaScript
 
-(project in progress, pardon the dust.)
-
 This project lets you fill out a form with information about a book, then click a button to add that book to a card on the screen. Each book card has a button to delete the book, and to toggle whether the book is "Read" or "Unread".
 
 ## Optimizations
