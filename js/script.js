@@ -99,6 +99,9 @@ exampleButton.addEventListener('click', (e)=>{
     examples[7] = Array("Pride and Prejudice","Jane Austen","279","Unread");
     examples[8] = Array("The Hobbit","J.R.R. Tolkien","366","Unread");
     examples[9] = Array("The Diary of a Young Girl","Anne Frank","283","Unread");
+    examples[10] = Array("Triptych","Karin Slaughter","393","Unread")
+    examples[11] = Array("Fractured","Karin Slaughter","388","Unread")
+    examples[12] = Array("Undone","Karin Slaughter","436","Unread")
     let randomExample = Math.floor(Math.random() * examples.length);
     addBookToLibrary(examples[randomExample][0],examples[randomExample][1],examples[randomExample][2],examples[randomExample][3]);
     loopThroughLibrary();
