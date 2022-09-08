@@ -28,14 +28,12 @@ I also got to make use of the "data-" attribute in this one!
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
 
-**Calculator:** https://github.com/andyglover/odin-calculator
+**Admin Dashboard:** https://github.com/andyglover/odin-project-admin-dashboard
 
-**Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
+**Calculator:** https://github.com/andyglover/odin-calculator
 
 **GIF Thingy:** https://github.com/andyglover/gif-thingy
 
-**Admin Dashboard:** https://github.com/andyglover/odin-project-admin-dashboard
+**Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
 
-**ANDYGLOVER.IO:** https://github.com/andyglover/andyglover.github.io
-
-**ANDYGLOVER.DEV:** https://github.com/andyglover/andyglover.dev
+**Tic-Tac-Toe:** https://github.com/andyglover/odin-project-tictactoe
