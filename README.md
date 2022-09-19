@@ -34,6 +34,8 @@ Here's a few more repositories of mine you might like to check out:
 
 **GIF Thingy:** https://github.com/andyglover/gif-thingy
 
+**Restaurant:** https://github.com/andyglover/odin-project-restaurant
+
 **Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
 
 **Tic-Tac-Toe:** https://github.com/andyglover/odin-project-tictactoe
